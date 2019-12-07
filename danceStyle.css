@@ -1,0 +1,125 @@
+body{
+    width: 1950px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.newNav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-width: 0px;    
+}
+#newNavBar{
+    z-index: 10;
+    border-width: 0px;    
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+#coverPic {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background: #ffffff url("img/u545.png") no-repeat;
+    background-size: 100% 1200px;
+    background-position: bottom;
+    z-index: -99;
+}
+#titlePic{
+    z-index: 1;
+    border-width: 0px;
+    position: absolute;
+    left: 35%;
+    top: 50px;
+    width: 706px;
+    height: 155px;
+    background: url("img/u594.png") no-repeat;
+}
+#navBar{
+    z-index: 10;
+    border-width: 0px;    
+    left: 0px;
+    top: 300px;
+    width: 100%;
+}
+.navBackground{
+    position: absolute;
+    background-color: black;
+    background-size: auto;
+    border-width: 0px;
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 300px;
+    opacity: 0.8;
+    width: 100%;
+    height: 200px;
+}
+.navImgs{
+    position: absolute;
+    display: inline-block;
+    left: 300px;
+    top: 300px;
+    width: 100%;
+    height: 150px;    
+}
+#navImg{
+    width:120px;
+    height:120px; 
+    padding-top: 15px;
+    padding-left: 150px;
+}
+.navText{
+    position: absolute;
+    display: inline-block;
+    left: 330px;
+    top: 450px;
+    width: 100%;
+    height: 150px;   
+}
+#navText{
+    width:120px;
+    height:120px;     
+    padding-left: 130px;
+    font-family: 'Iceland Bold', 'Iceland Regular', 'Iceland';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+navFood{
+   
+}
+.navHistory{
+   margin-left: 10px;
+}
+.navJazz{
+    margin-left: 13px;
+}
+.navDance{
+    margin-left: 35px;
+}
+.navContact{
+    margin-left: -35px;
+}
+.navCart{
+    margin-left: -20px;
+}
+.navlogoT{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    width: 100%;
+    height: 150px; 
+}
+.navHF{
+    margin-left: -430px;
+}
