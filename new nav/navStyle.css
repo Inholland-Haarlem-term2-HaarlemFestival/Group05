@@ -1,0 +1,188 @@
+body{
+    width: 1920px;
+}
+.sticky {
+    top: 0;
+    width: 100%;
+}
+.newNav{
+    position: fixed;
+    width: 1920px;
+    border-width: 0px;   
+}
+#coverPic{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background: #ffffff url("img/background.png") no-repeat;
+    background-size: 100% 1200px;
+    background-position: bottom;
+    z-index: -99;
+}
+#titlePic{
+    z-index: 1;
+    border-width: 0px;
+    position: absolute;
+    left: 35%;
+    top: 50px;
+    width: 706px;
+    height: 155px;
+    background: url("img/u594.png") no-repeat;
+}
+#text{         
+    font-family: 'Iceland Bold', 'Iceland Regular', 'Iceland';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#text:hover{
+    color:rgb(255, 51, 51);
+}
+#navBar{
+    z-index: 10;
+    border-width: 0px;    
+    min-width: 100%;
+    padding-top: 18em;    
+}
+.navBackground{
+    z-index: -1;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 200px;
+    margin-left: -10px;
+}
+#logo{
+    position: relative;
+    margin-top: -200px;
+    float: left;    
+}
+.logoImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    margin-left: -38%;
+}
+.logoImg:hover{
+    background-image: url("img/logoWhite.png");
+}
+.logoTxt{
+    margin-left: 10px;
+}
+#history{
+    position: relative;
+    margin-top: -200px;
+    float: left; 
+    margin-left: 6%;
+}
+.historyImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/history.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin-left: -75px;
+}
+.historyImg:hover{
+    background-image: url("img/historyRed.png");
+}
+#food{
+    position: relative;
+    margin-top: -200px;
+    float: left; 
+    margin-left: 6%;
+}
+.foodImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/food.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    margin-left: -40px;
+}
+.foodImg:hover{
+    background-image: url("img/foodRed.png");
+}
+#jazz{
+    position: relative;
+    margin-top: -200px;
+    float: left; 
+    margin-left: 6%;
+}
+.jazzImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/jazz.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin-left: -40px;
+}
+.jazzImg:hover{
+    background-image: url("img/jazzRed.png");
+}
+#dance{
+    position: relative;
+    margin-top: -200px;
+    float: left; 
+    margin-left: 6%;
+}
+.danceImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/dance.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    margin-left: -40px;
+}
+.danceImg:hover{
+    background-image: url("img/danceRed.png");
+}
+#contactus{
+    position: relative;
+    margin-top: -200px;
+    float: left; 
+    margin-left: 6%;
+}
+.contactImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/contactus.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin-left: -90px;
+}
+.contactImg:hover{
+    background-image: url("img/contactusRed.png");
+}
+#cart{
+    position: relative;
+    margin-top: -200px;
+    float: left; 
+    margin-left: 6%;
+}
+.cartImg{
+    width: 180%;
+    height: 150px;
+    background-image: url("img/cart.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    margin-left: -50px;
+}
+.cartImg:hover{
+    background-image: url("img/cartRed.png");
+}
